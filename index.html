@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>the_dream</title>
+</head>
+<body>
+<header>
+    <h1>The Crypto Traveler</h1>
+</header>
+    <h2>Welcome to our currency converter!</h2>
+    <h3>How to use it?</h3>
+    <ol>
+        <li>Select your travel destination currency and enter the amount.</li>
+        <li>Choose the currency you want to convert to (Euros by default).</li>
+        <li>Click "Convert" to see the converted amount.</li>
+    </ol>
+    
+    <form action="the_dream/includes/gormhandler.php" method="post">
+        <label for="currency">Currency to convert:</label><br>
+        <select id="currency" name="currency" placeholder="Choose your Fiat Currency" required>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="USD">Dollar (USD)</option>
+            <option value="YEN">Yen (YEN)</option>
+        </select>
+        <br><br>
+        <label for="amount">Amount:</label>
+        <input type="text" id="amount" name="amount" placeholder="Enter amount" required><br><br>
+        <input type="submit" value="Convert">
+    </form> 
+</body>
+</html>
+
+
+
+
+<!--
+1. Create the HTML you need
+    - What elements does the form need?
+2. Figure out what a form submit actually means / does
+3. How to get the form data after the submit?
+4. Calculate the amount in the desired valuta
+5. Figure out a way to provide this data in the HTML
+-->
