@@ -11,7 +11,7 @@
 
 ## Lien GitHub Pages
 
-[Lien vers le site](https://yourusername.github.io/the-dream)
+[Lien vers le site]([https://yourusername.github.io/the-dream](https://juanandresimb.github.io/the_dream/))
 
 ## Quoi
 
